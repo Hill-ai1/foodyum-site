@@ -1,0 +1,110 @@
+[
+  {
+    "id": "f01",
+    "label": "Kitchen paper towels",
+    "image": "/assets/images/foods/kitchen_paper_towels.jpeg",
+    "price": 10
+  },
+  {
+    "id": "f02",
+    "label": "Trash bags",
+    "image": "/assets/images/foods/trash_bags.png",
+    "price": 10
+  },
+  {
+    "id": "f03",
+    "label": "Dishwashing liquid",
+    "image": "/assets/images/foods/dishwashing_liquid.jpg",
+    "price": 10
+  },
+  {
+    "id": "f04",
+    "label": "Toilet paper",
+    "image": "/assets/images/foods/toilet_paper.jpeg",
+    "price": 10
+  },
+  {
+    "id": "f05",
+    "label": "Battery",
+    "image": "/assets/images/foods/battery.jpg",
+    "price": 10
+  },
+  {
+    "id": "f06",
+    "label": "Laundry Detergent",
+    "image": "/assets/images/foods/laundry_detergent.jpg",
+    "price": 10
+  },
+  {
+    "id": "f07",
+    "label": "Three bean salad",
+    "image": "/assets/images/foods/three_bean_salad.jpg",
+    "price": 10
+  },
+  {
+    "id": "f08",
+    "label": "Grilled Chicken Salad",
+    "image": "/assets/images/foods/grilled_chicken_salad.jpeg",
+    "price": 10
+  },
+  {
+    "id": "f09",
+    "label": "Grain Burger with Vegetables",
+    "image": "/assets/images/foods/grain_burger_with_vegetables.jpeg",
+    "price": 10
+  },
+  {
+    "id": "f10",
+    "label": "Cheeseburger",
+    "image": "/assets/images/foods/cheeseburger.jpg",
+    "price": 10
+  },
+  {
+    "id": "f11",
+    "label": "Broccoli and tomatoes pizza",
+    "image": "/assets/images/foods/broccoli_and_tomatoes_pizza.jpg",
+    "price": 10
+  },
+  {
+    "id": "f12",
+    "label": "Pepperoni Pizza Slice",
+    "image": "/assets/images/foods/pepperoni_pizza_slice.jpg",
+    "price": 10
+  },
+  {
+    "id": "f13",
+    "label": "Fresh Chickpea Hummus",
+    "image": "/assets/images/foods/fresh_chickpea_hummus.jpg",
+    "price": 10
+  },
+  {
+    "id": "f14",
+    "label": "Nachos with Melted Cheese",
+    "image": "/assets/images/foods/nachos_with_melted_cheese.jpg",
+    "price": 10
+  },
+  {
+    "id": "f15",
+    "label": "Avocado Wraps",
+    "image": "/assets/images/foods/avocado_wraps.jpg",
+    "price": 10
+  },
+  {
+    "id": "f16",
+    "label": "Turkey Wrap",
+    "image": "/assets/images/foods/turkey_wrap.jpg",
+    "price": 10
+  },
+  {
+    "id": "f17",
+    "label": "Milkshake",
+    "image": "/assets/images/foods/milkshake.jpg",
+    "price": 10
+  },
+  {
+    "id": "f18",
+    "label": "Fruit Smoothie",
+    "image": "/assets/images/foods/fruit_smoothie.jpg",
+    "price": 10
+  }
+]

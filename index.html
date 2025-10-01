@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodYum Experiment</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    Imagine you are shopping in an online grocery store. It is close to mealtime, and you haven’t eaten yet, so you feel a bit hungry. Right now you want to choose one food item that you would most like to eat, someone will prepare the food for you. Please select the one you would buy under this situation
+  </header>
+
+  <main>
+    <section id="stageChoice" hidden>
+      <h2>Please choose the ONE item you most want to eat now</h2>
+      <div id="grid" class="grid"></div>
+      <p>Selected: <span id="cartItem">(none)</span></p>
+      <button id="toSurvey" class="btn" disabled>Next</button>
+    </section>
+
+    <section id="stageSurvey" hidden>
+      <h2>Survey Questions</h2>
+      <form id="surveyForm">
+        <div id="questions"></div>
+        <div style="margin-top:12px;">
+          <button type="submit" id="submitBtn" class="btn" disabled>Submit and Finish</button>
+        </div>
+      </form>
+    </section>
+
+    <section id="stageDone" hidden>
+      <h2>Thank you!</h2>
+      <p>Your responses have been recorded.</p>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-content">
+      <h3 id="modalTitle">Important notice before you start</h3>
+      <div id="stimulusText"></div>
+      <p id="revealStatus" class="muted"></p>
+      <label class="ack">
+        <input type="checkbox" id="ackRead" disabled> I have read the information above
+      </label>
+      <button id="closeModal" class="btn" disabled>Enter the site</button>
+    </div>
+  </div>
+</body>
+</html>
